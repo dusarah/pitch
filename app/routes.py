@@ -7,7 +7,6 @@ from app.forms import RegistrationForm,LoginForm,UpdateAccountForm,PostForm,Post
 from app.models import User,Post,Comment
 from flask_login import login_user,current_user,logout_user,login_required
 
-
 @app.route("/home")
 def home():
     posts = Post.query.all()
