@@ -64,7 +64,3 @@ class PostComment(FlaskForm):
     comment = TextAreaField('Comment')
     submit = SubmitField('Comment')
 
-
-
-            
-        
